@@ -1,0 +1,37 @@
+Some government that conscripts people is evil.
+The boy runs.
+The boys run.
+Girls like an apple.
+A government that conscripts people is evil.
+The boy whom the girl likes likes a watermelon.
+The girl likes an apple.
+The apple that conscripts people likes a watermelon.
+A government which conscripts people is evil.
+The government conscripts watermelons.
+The girl runs.
+The girls run.
+The girl whom the boy likes is evil.
+The girl whom the boy likes likes a watermelon.
+The girl whom the boy whom the boy likes likes likes a watermelon.
+The girl likes the watermelon that conscripts people.
+The government that conscripts the girl whom the boy whom the boy whom the boy likes likes likes likes a boy.
+A girl who likes the boy likes a watermelon.
+WRONG (+0.08): A girl who conscripts the government who likes the boy likes the watermelon that conscripts the apple.
+WRONG (+0.08): The government that conscripts the girl who conscripts the boy who conscripts the girl who runs the government who likes the watermelon conscripts the watermelon that likes the boy whom the girl conscripts.
+WRONG IF RUN IS ONLY INTRANSITIVE (+0.08): The government runs the watermelon that likes the watermelons.
+The girl likes an apple.
+The governments that conscript people are evil.
+The boys whom the girl likes like a watermelon.
+The girls like apples.
+The apples that conscript people like a watermelon.
+Governments which conscript people are evil.
+The governments conscript a watermelon.
+The girl whom the boys like is evil.
+The girls whom the boy likes like watermelons.
+The girl whom the boys whom the boys like like likes a watermelon.
+The girls like the watermelons that conscript people.
+The government that conscripts the girl whom the boys whom the boys whom the boy likes like like likes a boy.
+Girls who like the boy like a watermelon.
+WRONG (+0.08): A girl who conscripts the governments who like the boy likes the watermelons that conscript the apples.
+WRONG (+0.08): The governments that conscript the girls who conscript the boys who conscript the girls who run the governments who like the watermelons conscript the watermelons that like the boys whom the girls conscript.
+WRONG IF RUN IS ONLY INTRANSITIVE (+0.08): Governments run the watermelon that likes the watermelon.

@@ -1,0 +1,37 @@
+Some government that conscripts all people is evil.
+Some boy runs.
+All boys run.
+All girls like some apple.
+All governments that conscript some people are evil.
+All boys whom some girl likes like some watermelon.
+Some girl likes some apple.
+Some apple that conscripts all people likes some watermelon.
+All governments which conscript some people like some watermelon.
+Some government conscripts all watermelons.
+Some girl runs.
+Some girls run.
+Some girl whom some boy likes is evil.
+All girls whom some boy likes like all watermelons.
+Some girl whom all boys whom some boy likes like likes some watermelon.
+All girls like some watermelon that conscripts all people.
+Some government that conscripts some girl whom some boy whom some boy whom some boy likes likes likes likes some boy.
+Some girl who likes some boy likes all watermelons.
+WRONG (+0.08): Some girl who conscripts some government who likes all boys likes some watermelon that conscripts some apple.
+WRONG (+0.08): All governments that conscript some girl who conscripts some boy who conscripts all girls who run some government who likes all watermelons conscript some watermelon that likes some boy whom all girls conscript.
+WRONG IF RUN IS ONLY INTRANSITIVE (+0.08): Some government runs some watermelon that likes all watermelons.
+All girls like some apple.
+Some governments that conscript some people are evil.
+Some boys whom some girl likes like all watermelons.
+All girls like all apples.
+All apples that conscript some people like some watermelon.
+Some government which conscripts some people is evil.
+All governments conscript some watermelon.
+Some girl whom some boys like is evil.
+All girls whom some boy likes like all watermelons.
+Some girl whom all boys whom some boys like like likes all watermelons.
+All girls like some watermelons that conscript all people.
+Some government that conscripts some girl whom all boys whom all boys whom all boys like like like likes some boy.
+Some girls who like all boys like all watermelons.
+WRONG (+0.08): Some girl who conscripts some governments who like some boy likes all watermelons that conscript all apples.
+WRONG (+0.08): All governments that conscript some girls who conscript some boys who conscript all girls who run all governments who like all watermelons conscript some watermelons that like all boys whom some girls conscript.
+WRONG IF RUN IS ONLY INTRANSITIVE (+0.08): Some governments run all watermelons that like some watermelon.

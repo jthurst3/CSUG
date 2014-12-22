@@ -1,0 +1,34 @@
+<html>
+<head>
+	<title>Prolog FAQ</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Bootstrap (template from http://getbootstrap.com/getting-started/) -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+	<!--img align=top src="/images/urcslogo.gif"--> 
+	<div class="jumbotron">
+		<h1>Prolog FAQ</h1>
+		<hr>
+		<p><b>"List B" on the website (instructions) only contains "all" and "some" as quantifiers. Will our test cases only include "all" and "some" too? will there be "a"?</b> <br> Only accounting for "all" and "some" is completely fine. For extra credit, you could do "any" (for all), "a" (there exists), "an" (there exists), and "the" (there exists).</p>
+		<hr>
+		<p><b>Is the project's input a sentence and output a FOL form? If we can fulfill this without doing exactly everything stated on the website, will points be deducted?</b> <br> In general I would say that your program should follow the instructions listed on the website in full. I expect your program to input an English sentence, generate a parse tree for that sentence using a CFG, and output something in FOL (and points will be deducted if your project doesn't meet the required specifications). You are welcome to do extra things (extend your dictionary, your CFG, use past tenses, ...) for extra credit. Just explain in your writeup anything you did that is extra.</p>
+		<hr>
+		<p><b>Why isn't "The boy who the girl likes likes a watermelon" grammatically correct?</b> <br> Although the boy is the subject of the sentence, the boy is also the <em>direct object</em> of "the girl likes". Thus, it should be "The boy <em>whom</em> the girl likes likes a watermelon".</p>
+		<hr>
+		<p><b>Is there a way to implement "OR" in Prolog across different statements -- just have a query return "True" and finish if at least one possibility is "True"?</b> <br> Yes, you can surround queries with <a href="http://www.swi-prolog.org/pldoc/doc_for?object=once/1">once</a>, or to be more elegant, you can try putting a <a href="http://www.learnprolognow.org/lpnpage.php?pagetype=html&pageid=lpn-htmlse44">cut (!)</a> right before the end of each definition.</p>
+		<hr>
+		<p><b>Does our project need to be able to recognize past tenses?</b> <br> No, reading and translating sentences with past tenses is optional (bonus).</p>
+		<hr>
+		<p><b>How will you test our code?</b> <br> Short answer: Very carefully :). Long answer: I will make a suite of test cases for all required components of the project, as well as what I think are common extra-credit things to do. Basically these will include a number of simple and complicated sentences using every word in the sample dictionary. I will also check for number agreement and correct uses of "who" and "whom". If you extend your project to do something for extra-credit, PLEASE include test cases for this to show me that what you did for extra credit works. This will make giving out bonus points a lot easier.<br> Also, I will be checking for citations/plagiarism, so PLEASE make sure you have cited everything that's not yours. If you worked with other people, please mention this in your writeup.</p>
+		<hr>
+		<p><b>What is the best way to make sure my program thinks the sentence "The boy who the girl likes likes a watermelon" is ungrammatical? Should I include an extra argument in order to state whether a noun is a direct object or not?</b> <br> I believe you can solve that problem by looking at the form of the relative clause. For example, the rule "RELCL --> Rel VP" implies that Rel refers to a subject, such as in "The boy who likes a watermelon likes an apple." On the other hand, the rule "RELCL--> NP V" implies that Rel refers to a direct object, such as in "The boy whom the girl likes likes a watermelon".</p>
+		<hr>
+		<p><b>How would we translate a sentence like "Some boys eat apples" to FOL given that there is no quantifier in front of "apples"?</b> <br>By convention, if there is no quantifier in front of a noun, it means "for all". Thus, the sentence could be rephrased as "some boys eat all apples".</p>
+		<hr>
+		<p><b>In our parse trees, are we supposed to leave the plural form of a noun in the tree, or always output the singular version?</b> <br>Either one is fine. For example, if your sentence was "some boys eat some apple", I will accept either sentence(noun_phrase(determiner(some), noun(boy)), verb_phrase(verb(eat), noun_phrase(determiner(some), noun(apple)))), or sentence(noun_phrase(determiner(some), noun(boys)), verb_phrase(verb(eat), noun_phrase(determiner(some), noun(apple)))).</p>
+		<hr>
+	</div>
+</body>
+</html>
