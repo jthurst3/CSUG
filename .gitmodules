@@ -1,3 +1,6 @@
 [submodule "LingBOT"]
 	path = LingBOT
 	url = git@github.com:jthurst3/LIN110.git
+[submodule "csug-home"]
+	path = csug-home
+	url = git@github.com:jthurst3/csug-home.git
